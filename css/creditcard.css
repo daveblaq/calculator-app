@@ -1,0 +1,91 @@
+* {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.card {
+  height: 500px;
+  width: 950px;
+  background-image: url("https://img.freepik.com/premium-photo/black-abstract-line-background_769163-177.jpg?w=360");
+  border-radius: 40px;
+  padding: 60px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+}
+
+.top-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: center;
+}
+
+.top-left img {
+  height: 60px;
+}
+
+.top-left h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.top-right img {
+  height: 80px;
+}
+
+.card-num h3 {
+  font-size: 25px;
+		font-weight: 400;
+}
+
+.card-num h1 {
+	font-weight: 400;
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.bottom-row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.bottom-left h2{
+	font-weight: 500;
+	font-size: 30px;
+}
+
+.bottom-right h3 {
+  font-size: 25px;
+		font-weight: 400;
+}
+
+.bottom-right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.bottom-right h2 {
+  font-size: 30px;
+		font-weight: 400;
+		margin-top: 10px
+}
