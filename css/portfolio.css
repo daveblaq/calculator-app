@@ -68,7 +68,7 @@ header {
   line-height: 27px;
 }
 
-.hero-left button {
+button {
   background-color: #000000;
   padding-left: 64px;
   padding-right: 64px;
@@ -79,6 +79,10 @@ header {
   font-size: 20px;
   font-weight: 600;
   margin-top: 48px;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .hero-right {
@@ -168,7 +172,7 @@ header {
 
 .skill-box h3 {
   font-size: 27px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #000000;
   padding-top: 42px;
   margin: 0px;
@@ -178,7 +182,7 @@ header {
 
 .skill-box p {
   font-size: 17px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #000000;
   line-height: 27px;
   padding: 0px;
@@ -196,7 +200,7 @@ header {
 
 .latest-work h3 {
   font-size: 32px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #000000;
   text-align: center;
   padding-bottom: 42px;
@@ -209,7 +213,6 @@ header {
 }
 
 .grid-item {
-
 }
 
 .grid-item img {
@@ -219,7 +222,7 @@ header {
 
 .grid-item h3 {
   font-size: 20px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #000000;
   padding-top: 24px;
   margin: 0px;
@@ -235,3 +238,155 @@ header {
   padding: 0px;
 }
 /* Latest work ends here */
+
+/* Testimonial starts here */
+.testimonial {
+  padding-top: 42px;
+}
+
+.testimonial h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  padding-top: 42px;
+}
+
+.testimonial-box {
+  margin-top: 42px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.testimony {
+  padding: 42px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.testimony p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #2d2d2d;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile i {
+  color: #2d2d2d;
+  font-size: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile h3 {
+  color: #2d2d2d;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.profile p {
+  color: #2d2d2d;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.user-details {
+  display: flex;
+  gap: 20px;
+}
+/* Testimonial ends here */
+
+/* Footer starts here */
+footer {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-content {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2d2d2d;
+  line-height: 42px;
+}
+
+.footer-content p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 80%;
+}
+
+.footer-content ul {
+  margin-top: 42px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.footer-content ul li a {
+  color: #000000;
+}
+
+.contact-form {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+input {
+  padding: 20px;
+  background-color: #f3f3f3;
+  outline: none;
+  color: #2d2d2d;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
